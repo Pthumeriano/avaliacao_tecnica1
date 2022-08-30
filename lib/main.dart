@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
 
-          Padding(padding: const EdgeInsets.all(60),
+          Padding(padding: const EdgeInsets.all(50),
             child: 
             TextField(
               keyboardType: TextInputType.number,
@@ -85,7 +85,7 @@ class _HomeState extends State<Home> {
           ),
         
           
-          Padding(padding: const EdgeInsets.all(300),
+          Padding(padding: const EdgeInsets.all(275),
             child: ElevatedButton(onPressed: () => mostrarResultado(context), style: ElevatedButton.styleFrom(primary: Colors.green), child: const Text("Calcular"),) 
           )
 
